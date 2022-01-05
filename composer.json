@@ -1,8 +1,8 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-theme-volt",
+    "description": "Open source dashboard powered by Bootstrap 5 for YII 2",
     "type": "yii2-extension",
-    "keywords": ["dynamika", "yii2"],
+    "keywords": ["dynamika", "yii2", "theme", "volt"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -12,8 +12,8 @@
         },
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-theme-volt/issues",
+        "source": "http://github.com/dynamikaweb/yii2-theme-volt"
     },
     "require": {
         "php": "^7.0 || ^ 8.0",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\template\\": "src"
+            "dynamikaweb\\volt\\": "src"
         }
     },
     "repositories": [
